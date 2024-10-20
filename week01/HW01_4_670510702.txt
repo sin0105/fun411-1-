@@ -1,0 +1,25 @@
+#!/usr/bin/env python3
+# Chonlanna Saikhampa (Aomsin)
+# 670510702
+# HW01_0
+# 204111 Sec 003
+
+function draw_a_square() {
+  for (var count = 0; count < 4; count++) {
+      moveForward(100);
+    turnRight(90);
+  }
+}
+
+function draw_a_triangle() {
+  for (var count2 = 0; count2 < 3; count2++) {
+      moveForward(100);
+    turnRight(120);
+  }
+}
+
+draw_a_triangle();
+moveForward(100);
+draw_a_square();
+moveForward(100);
+draw_a_triangle();

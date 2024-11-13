@@ -22,7 +22,7 @@ def minute_diff(h1: int, m1: int, p1: str,
     if p2 == "AM" and h2==12:
         h2 = 0   
 
-    result = abs((h1*60+m1)-(h2*60+m2)).   # แปลงค่าทั้งหมดเป็นหน่วยนาที
+    result = abs((h1*60+m1)-(h2*60+m2))  # แปลงค่าทั้งหมดเป็นหน่วยนาที
     return result
 
 
